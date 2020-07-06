@@ -18,6 +18,8 @@ A Support Vector Machine (SVM) performs classification by finding the hyperplane
 4. Logistic regression 
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary). ... Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
+5. Linear and non-linear
+Using linear and non-linear regression to predict trends
 _____
 We will evaluate the models using 
 1. Jaccard Index
@@ -32,3 +34,9 @@ Recall= True_positive( True_positive + False_negative
 or Recall= True positive/total Actual_positive
 
 F1= (Precision * Recall)/ (Precision+ Recall)
+
+
+
+____________
+5. Multiple Linear regression
+
