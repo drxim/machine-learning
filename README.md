@@ -18,3 +18,17 @@ A Support Vector Machine (SVM) performs classification by finding the hyperplane
 4. Logistic regression 
 Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary). ... Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
+_____
+We will evaluate the models using 
+1. Jaccard Index
+The Jaccard Index, also known as the Jaccard similarity coefficient, is a statistic used in understanding the similarities between sample sets. The measurement emphasizes similarity between finite sample sets, and is formally defined as the size of the intersection divided by the size of the union of the sample sets.
+
+2. F1-Score
+F1 score - F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution.
+Precision= True_positive/(True_positive+False_positive)
+or Precision= True_positive/Total predicted positive
+
+Recall= True_positive( True_positive + False_negative
+or Recall= True positive/total Actual_positive
+
+F1= (Precision * Recall)/ (Precision+ Recall)
